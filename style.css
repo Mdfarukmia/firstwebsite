@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    
+}
+.orange{
+    color: orange;
+}
+.divone h1{
+    font-size: 40px;
+
+}
+.divone{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+}
+.divone img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.divone a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(30, 128, 6));
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+.bg{
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    
+}
+
+section{
+    height: 500px;
+    margin-bottom: 150px;
+}
+.bk{
+    background-image: url("images/dream.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last{
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+    margin: 2%;
+    
+    
+}
+.hmm div{
+    box-shadow: 5px 7px 50px black;
+    height: 400px;
+    background-color: white;
+   
+}
+.hmm{
+    background-image: url("images/exp.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.last h4{
+    color: salmon;
+}
+
+#blue{
+    border-left: 5px solid salmon;
+    border-image: linear-gradient(rgb(248, 114, 99) , rgb(42, 240, 3));
+    border-image-slice: 1;
+
+
+}
+#red{
+    border-left: 5px solid blue;
+    border-image: linear-gradient(rgb(0, 255, 13) , blue);
+    border-image-slice: 1;
+}
